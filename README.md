@@ -6,6 +6,9 @@ Cliente Linea de Comandos
 #Clone the repository
 git clone https://github.com/AllieMichell/CLI.git
 
+#Go the rute
+cd CLI
+
 #Install CLI 
 pip install -e .
 
