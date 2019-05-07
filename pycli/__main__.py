@@ -1,8 +1,8 @@
 #!/opt/python3.7/bin/python
 
 import sys
-from .classmodule import MyClass
-from .funcmodule import my_function 
+# from .classmodule import MyClass
+# from .funcmodule import my_function 
 
 def main():
     print('In main')
@@ -11,10 +11,9 @@ def main():
     for arg in args:
         print('passed argument :: {}'.format(arg))
     
-    my_function('hello world')
-
-    my_object = MyClass('AxtelLabs')
-    my_object.say_name()
+    # my_function('hello world')
+    # my_object = MyClass('AxtelLabs')
+    # my_object.say_name()
 
 if __name__ == '__main__':
     main()
