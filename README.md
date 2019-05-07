@@ -7,7 +7,7 @@ Cliente Linea de Comandos
 git clone https://github.com/AllieMichell/CLI.git
 
 #Install CLI 
-python install -e .
+pip install -e .
 
 #Use the CLI 
 pycli <'argument'>
